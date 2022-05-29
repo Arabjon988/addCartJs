@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="container">
+            <div id="item1" class="card">
+                <img src="./img/trainers.jpg" alt="">
+                <div class="title">
+                    <h3>Nike bootse</h3>
+                </div>
+                <div class="label">
+                    <label for="">SIZE: </label>
+                    <select>
+                        <option value="30">30</option>
+                        <option value="32">32</option>
+                        <option value="34">34</option>
+                        <option value="36">36</option>
+                        <option value="38">38</option>
+                    </select>
+                    <strong>Price: 150$</strong>
+                </div>
+                <button onclick="addToCart (item1)">Add to Cart</button>
+            </div>
+            <div id="item2" class="card">
+                <img src="./img/shoe.jpg" alt="">
+                <div class="title">
+                    <h3>Nike bootse</h3>
+                </div>
+                <div class="label">
+                    <label for="">SIZE: </label>
+                    <select>
+                        <option value="30">30</option>
+                        <option value="32">32</option>
+                        <option value="34">34</option>
+                        <option value="36">36</option>
+                        <option value="38">38</option>
+                    </select>
+                    <strong>Price: 150$</strong>
+                </div>
+                <button onclick="addToCart (item2)">Add to Cart</button>
+            </div>
+
+            <div id="item3" class="card">
+                <img src="./img/shoe2.jpg" alt="">
+                <div class="title">
+                    <h3>Nike bootse</h3>
+                </div>
+                <div class="label">
+                    <label for="">SIZE: </label>
+                    <select>
+                        <option value="30">30</option>
+                        <option value="32">32</option>
+                        <option value="34">34</option>
+                        <option value="36">36</option>
+                        <option value="38">38</option>
+                    </select>
+                    <strong>Price: 150$</strong>
+                </div>
+                <button onclick="addToCart (item3)">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="cart" id="cart">
+        <div class="title">CART</div><hr>
+        <div id="title" class="product">
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
